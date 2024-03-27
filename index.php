@@ -82,8 +82,8 @@
                 echo "<td>" . $row['Luong'] . "</td>";
                 echo "<td>";
                 // Thêm các liên kết hoặc nút điều hướng đến các trang hoặc kích hoạt các chức năng tương ứng
-                echo "<a href='edit.php?id=" . $row['Ma_NV'] . "'>Edit</a> | ";
-                echo "<a href='delete.php?id=" . $row['Ma_NV'] . "'>Delete</a>";
+                echo "<a href='add.php?id=" . $row['Ma_NV'] . "'>Thêm</a> | ";
+                echo "<a href='delete.php?id=" . $row['Ma_NV'] . "'>Xóa</a>";
                 echo "</td>";
                 echo "</tr>";
             }
